@@ -6,10 +6,10 @@ class Bottles
   def verse(number)
     case number
     when 0
-      "No more bottles of beer on the wall, no more bottles of beer.\n" +
+      "#{quantity(number).capitalize} #{container(number)} of beer on the wall, no more bottles of beer.\n" +
       "Go to the store and buy some more, 99 bottles of beer on the wall.\n"
     else
-      "#{number} #{container(number)} of beer on the wall, #{number} #{container(number)} of beer.\n" +
+      "#{quantity(number).capitalize} #{container(number)} of beer on the wall, #{number} #{container(number)} of beer.\n" +
       "Take #{pronoun(number)} down and pass it around, #{quantity(number - 1)} #{container(number - 1)} of beer on the wall.\n"
     end
   end
@@ -29,6 +29,6 @@ class Bottles
    end
 
    def quantity(number)
-     number == 0 ? "no more" : number
+     number == 0 ? "no more" : number.to_s
    end
 end
