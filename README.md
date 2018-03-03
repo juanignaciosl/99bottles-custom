@@ -1,3 +1,15 @@
+# WeCode attendees
+
+Suggestion: ignore this and just read the book.
+
+[Slides](https://docs.google.com/presentation/d/16arc6BbPqrBIY6m34Xe5jubAiHys-9SmDYFPw7Ox05Y/edit#slide=id.g35f391192_09), totally uninteresting.
+
+Take a look at the branches, there are the steps. Anyway, just read the book.
+
+Really. Read-the-book :D
+
+PS: and thank you very much for attending and for your warm feedback. We all knew that it should've been at least 2-hours long but you were really understanding :)
+
 # 99 Bottles Kata
 
 Based on [99 Bottles of OOP book](https://www.sandimetz.com/99bottles/) by Sandi Metz and Katrina Owen.
