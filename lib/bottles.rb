@@ -15,15 +15,27 @@ class Bottles
    private
 
    def container(number)
-     "bottle#{number != 1 ? 's' : ''}"
+     if number == 1
+       "bottle"
+     else
+       "bottles"
+     end
    end
 
    def pronoun(number)
-     number == 1 ? 'it' : 'one'
+     if number == 1
+       'it'
+     else
+       'one'
+     end
    end
 
    def quantity(number)
-     number == 0 ? "no more" : number.to_s
+     if number == 0
+       'no more'
+     else
+       number.to_s
+     end
    end
 
    def action(number)
